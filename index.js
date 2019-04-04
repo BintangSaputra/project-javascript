@@ -3,10 +3,16 @@ console.warn("Hello Warning");
 console.error("Hello Error");
 console.info("Hello Info");
 alert("Hello Alert");
+
+// string
 const name = "Brendan Eich";
 console.log(`Hello ${name}`);
 alert(`Hello ${name}`);
+const phoneNumber = "140145";
+console.log(`My Number ${phoneNumber}`);
+alert(`My Number ${phoneNumber}`);
 
+// number
 console.log(0);
 console.log(100);
 console.log(3.14);
